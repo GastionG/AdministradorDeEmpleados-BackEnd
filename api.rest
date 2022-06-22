@@ -1,0 +1,31 @@
+###
+GET http://localhost:4000/empleados
+
+###
+GET http://localhost:4000/empleados/62856ba3737c76fa71722b1f
+
+###
+DELETE http://localhost:4000/empleados/628ee69d151a71b24f9bd325
+
+###
+POST http://localhost:4000/empleados
+Content-Type: application/json
+
+{
+    "name": "anashe",
+    "position": "Junior Developer",
+    "office": "A-21",
+    "salary": 15000
+}
+
+###
+PUT http://localhost:4000/empleados/62856be094a9c6c0cf630eae
+Content-Type: application/json
+
+{
+    "name": "ana",
+    "position": "Senior Developer",
+    "office": "A-21",
+    "salary": 15000
+}
+
